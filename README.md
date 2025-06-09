@@ -16,7 +16,7 @@ The analysis and event study conducted in this project are grounded in establish
     *   **Normal Performance Model (Market Model):** This study utilizes the Market Model, a widely used econometric approach. It assumes a linear relationship between the return of an individual security and the return of a market index. The model is estimated using ordinary least squares (OLS) regression on data from the estimation window:
          R(it) = alpha_i + beta_i* R(mt) + epsilon(it)
         Where:
-        *   $R(it)}$ is the return of security *i* at time *t*.
+        *   $R(it)$ is the return of security *i* at time *t*.
         *   $R(mt)$ is the return of the market index at time *t*.
         *   $alpha_i$ and $beta_i$ are the estimated parameters representing the security's intercept and sensitivity to market movements, respectively.
         *   $epsilon(it)$ is the error term, representing the unexplained portion of the security's return.
